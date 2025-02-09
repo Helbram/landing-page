@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 72px;
 }
 
 ul {
@@ -22,11 +23,61 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 16px;
+    gap: 50px;
 }
 
 a {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
+}
+
+.body {
+    flex: 1;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 75px;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#logo {
+    width: 300px;
+}
+
+#welcome-header {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#welcome-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+button#play {
+    background: #3882F6;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 72px;
 }
