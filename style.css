@@ -111,4 +111,8 @@ button#play {
 .footer {
     background-color: #1F2937;
     height: 72px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
