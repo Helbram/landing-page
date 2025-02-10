@@ -110,7 +110,6 @@ button#play {
 }
 
 .quote {
-    text-align: center;
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
@@ -118,7 +117,12 @@ button#play {
 }
 
 #quote {
+    text-align: left;
     font-style: italic;
+}
+
+#quote-author {
+    text-align: right;
 }
 
 .footer {
